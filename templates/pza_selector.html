@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sélecteur de pizza (Twins Pizza)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='pza_style.css') }}">
+    
+</head>
+<body>
+    <div class="selector-sheet">
+        <h1>Twins Pizza (Clamart)</h1>
+        
+
+        <div class="section">
+            <h1>Choix des ingrédients</h1>
+            <div class="section">
+                <div class="section three-column">
+                    <div class="column">
+                        <div class="pizza-buttons">
+                            <button id="tomatoButton" onclick="handleButtonClick('tomatoButton', 'creamButton')">Sauce tomate</button>
+                            <button id="creamButton" onclick="handleButtonClick('creamButton', 'tomatoButton')">Crème fraîche</button>
+                        </div>
+                        <div class="pizza-buttons">
+                            <button id="poulet" onclick="handleButtonClick('poulet', 'notpoulet')">Poulet émincé</button>
+                            <button id="notpoulet" onclick="handleButtonClick('notpoulet', 'poulet')">X</button>
+                        </div>
+                        <div class="pizza-buttons">
+                            <button id="chorizo" onclick="handleButtonClick('chorizo', 'notchorizo')">Chorizo</button>
+                            <button id="notchorizo" onclick="handleButtonClick('notchorizo', 'chorizo')">X</button>
+                        </div>
+                        <div class="pizza-buttons">
+                            <button id="viande" onclick="handleButtonClick('viande', 'notviande')">Viande hachée</button>
+                            <button id="notviande" onclick="handleButtonClick('notviande', 'viande')">X</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="pizza-buttons">
+                            <button id="poivrons" onclick="handleButtonClick('poivrons', 'notpoivrons')">Poivrons</button>
+                            <button id="notpoivrons" onclick="handleButtonClick('notpoivrons', 'poivrons')">X</button>
+                        </div>
+                        <div class="pizza-buttons">
+                            <button id="jalapenos" onclick="handleButtonClick('jalapenos', 'notjalapenos')">Jalapeños</button>
+                            <button id="notjalapenos" onclick="handleButtonClick('notjalapenos', 'jalapenos')">X</button>
+                        </div>
+                        <div class="pizza-buttons">
+                            <button id="aubergines" onclick="handleButtonClick('aubergines', 'notaubergines')">Aubergines grillées</button>
+                            <button id="notaubergines" onclick="handleButtonClick('notaubergines', 'aubergines')">X</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="pizza-buttons">
+                            <button id="champignons" onclick="handleButtonClick('champignons', 'notchampignons')">Champignons</button>
+                            <button id="notchampignons" onclick="handleButtonClick('notchampignons', 'champignons')">X</button>
+                        </div>
+                        <div class="pizza-buttons">
+                            <button id="olives" onclick="handleButtonClick('olives', 'notolives')">Olives</button>
+                            <button id="notolives" onclick="handleButtonClick('notolives', 'olives')">X</button>
+                        </div>
+                        <div class="pizza-buttons">
+                            <button id="chilithai" onclick="handleButtonClick('chilithai', 'bbq', 'curry')">Sauce chili-thaï</button>
+                            <button id="bbq" onclick="handleButtonClick('bbq', 'chilithai', 'curry')">Sauce barbecue</button>
+                            <button id="curry" onclick="handleButtonClick('curry', 'bbq', 'chilithai')">Sauce curry</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script>
+        function handleButtonClick(clickedButtonId, ...otherButtonIds) {
+        const clickedButton = document.getElementById(clickedButtonId);
+
+        if (!clickedButton.classList.contains('active')) {
+            clickedButton.classList.add('active');
+
+            // Remove the 'active' class from other buttons
+            otherButtonIds.forEach((otherButtonId) => {
+                const otherButton = document.getElementById(otherButtonId);
+                otherButton.classList.remove('active');
+            });
+        }
+    }
+    </script>
+</body>
+</html>
