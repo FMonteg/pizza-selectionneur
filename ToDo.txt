@@ -1,8 +1,5 @@
 - Lister les ingrédients possibles
 - Répartir les ingrédients en colonnes
-- Obtenir la sélection à partir du formulaire + mise à jour
-- Lire et filtrer la liste des pizzas
-- Afficher la liste des pizzas correspondates (en-dessous) et la progression de la sélection (au-dessus)
 - Déployer
 - Bloquer les choix impossibles/incompatibles
 - Enjoliver la page
