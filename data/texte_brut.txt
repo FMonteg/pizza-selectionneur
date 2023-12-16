@@ -1,80 +1,30 @@
-1
-instrumentiste
-1
-reconnu
-2
-combattant
-2
-surdoué
-3
-forgeron
-3
-éclairé
-4
-maître artisan
-4
-amateur
-5
-herboriste
-5
-émérite
-6
-empoisonneur
-6
-habile
-7
-érudit
-7
-correct
-8
-diplomate
-8
-réputé
-9
-négociateur
-9
-ignoré
-10
-marchand
-10
-méconnu
-11
-chanteur
-11
-sous-estimé
-12
-danseur
-12
-humble
-13
-voyageur
-13
-redoutable
-14
-chasseur
-14
-débutant
-15
-tacticien
-15
-envié
-16
-dirigeant
-16
-atypique
-17
-bâtisseur
-17
-étonnant
-18
-conducteur
-18
-impressionnant
-19
-cartographe
-19
-dénigré
-20
-architecte/ingénieur
-20
-efficace
+Flash Twins : Sauce tomate, mozzarella
+Rush : Sauce tomate, mozzarella, sauce Chili-Thaï, poulet fumé, chorizo, poivrons, jalapenos
+Venom : Sauce tomate, Fromage, Aubergine grillées, Viande hachée, Champignons, Olives
+Wonder Twins : Sauce tomate, mozzarella, jambon, champignons
+Tornade : Sauce tomate, mozzarella, thon, oeuf, olives
+Dr Octopus : Sauce tomate, mozzarella, cocktail de fruits de mer
+Joker (pizza soufflée) : Sauce tomate, mozzarella, jambon, champignons
+4 Fantas Twins : Sauce tomate, mozzarella, fromage bleu, fromage chèvre, fromage à raclette
+Electra : Sauce tomate, mozzarella, chorizo, champignons, olives
+Spider Twins : Sauce tomate, mozzarella, viande hachée, poivrons, oeuf
+Super Twins : Sauce tomate, mozzarella, merguez, poivrons, oeuf
+Elastic Twins : Crème fraîche, mozzarella, poulet émincé, champignons, pommes de terre, Boursin
+Wolve Twins : Crème fraîche, mozzarella, poulet fumé, poulet émincé, fromage à raclette, oignons
+Thor : Crème fraîche, mozzarella, saumon
+Star Lord : Crème fraîche, mozzarella, chorizo, poulet émincé, champignons
+Rocket : Crème fraîche, mozzarella, lardons, pommes de terre, fromage à raclette
+Saladin : Crème fraîche, mozzarella, sauce curry, poulet émincé, champignons, pommes de terre
+Thanos : Crème fraîche, mozzarella, poulet fumé, pommes de terre
+Black Panther : Sauce tomate, mozzarella, chorizo, viande hachée, olives
+Deadcook : Sauce tomate, mozzarella, sauce BBQ, viande hachée, merguez, oignons, poivrons
+Groot : Sauce tomate, mozzarella, champignons, poivrons, olives, oignons
+Batwins : Sauce tomate, mozzarella, jambon, viande hachée, lardons, champignons, crème fraîche
+Jarvis : Sauce tomate, mozzarella, sauce Algérienne, merguez, poivrons, oeuf
+Hulk : Sauce tomate, mozzarella, viande hachée, merguez, poivrons
+Ant Man : Sauce tomate, mozzarella, chorizo, merguez, poivrons
+Captain DZ : Crème fraîche, mozzarella, sauce Algérienne, jambon, viande hachée, oignons
+Iron Twins : Crème fraîche, mozzarella, poulet fumé, viande hachée, oeuf, cheddar
+Cpt Twins : Crème fraîche, mozzarella, sauce BBQ, poulet fumé, viande hachée, pommes de terre, oignons
+Ghost Rider : Crème fraîche, mozzarella, sauce Biggy, poulet fumé, viande hachée, oeuf, cornichons, cheddar
+Mashock : Crème fraîche, mozzarella, sauce Brazil, poulet émincé, pommes de terre, ananas

@@ -3,3 +3,4 @@
 - Déployer
 - Bloquer les choix impossibles/incompatibles
 - Enjoliver la page
+- Bouton pizzas végé/ pizza sans fromage

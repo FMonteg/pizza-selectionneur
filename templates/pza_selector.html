@@ -14,26 +14,84 @@
         
             <div class="ingredient-buttons">
                 <div>
-                    <button id="tomatoButton" class="want-button" onclick="handleIngredientClick('Tomato', true)">I want Tomato</button>
-                    <button id="noTomatoButton" class="no-want-button" onclick="handleIngredientClick('Tomato', false)">I don't want Tomato</button>
+                    <button id="tomateButton" class="want-button" onclick="handleIngredientClick('Tomate', true)">Sauce Tomate</button>
+                    <button id="noTomateButton" class="no-want-button" onclick="handleIngredientClick('Tomate', false)">Crème Fraîche</button>
                 </div>
                 <div>
-                    <button id="cheeseButton" class="want-button" onclick="handleIngredientClick('Cheese', true)">I want Cheese</button>
-                    <button id="noCheeseButton" class="no-want-button" onclick="handleIngredientClick('Cheese', false)">I don't want Cheese</button>
+                    <button id="mozzarellaButton" class="want-button" onclick="handleIngredientClick('Mozzarella', true)">Mozzarella</button>
+                    <button id="noMozzarellaButton" class="no-want-button" onclick="handleIngredientClick('Mozzarella', false)">Non merci</button>
                 </div>
                 <div>
-                    <button id="mushroomButton" class="want-button" onclick="handleIngredientClick('Mushroom', true)">I want Mushroom</button>
-                    <button id="noMushroomButton" class="no-want-button" onclick="handleIngredientClick('Mushroom', false)">I don't want Mushroom</button>
+                    <button id="fromageButton" class="want-button" onclick="handleIngredientClick('Fromage', true)">Fromage à raclette</button>
+                    <button id="noFromageButton" class="no-want-button" onclick="handleIngredientClick('Fomage', false)">Non merci</button>
                 </div>
+                <div>
+                    <button id="cheddarButton" class="want-button" onclick="handleIngredientClick('Cheddar', true)">Cheddar</button>
+                    <button id="noCheddarButton" class="no-want-button" onclick="handleIngredientClick('Cheddar', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="jambonButton" class="want-button" onclick="handleIngredientClick('Jambon', true)">Jambon</button>
+                    <button id="noJambonButton" class="no-want-button" onclick="handleIngredientClick('Jambon', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="pouletminceButton" class="want-button" onclick="handleIngredientClick('Pouletmince', true)">Poulet émincé</button>
+                    <button id="noPouletminceButton" class="no-want-button" onclick="handleIngredientClick('Pouletmince', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="pouletButton" class="want-button" onclick="handleIngredientClick('Poulet', true)">Poulet fumé</button>
+                    <button id="noPouletButton" class="no-want-button" onclick="handleIngredientClick('Poulet', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="chorizoButton" class="want-button" onclick="handleIngredientClick('Chorizo', true)">Chorizo</button>
+                    <button id="noChorizoButton" class="no-want-button" onclick="handleIngredientClick('Chorizo', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="merguezButton" class="want-button" onclick="handleIngredientClick('Merguez', true)">Merguez</button>
+                    <button id="noMerguezButton" class="no-want-button" onclick="handleIngredientClick('Merguez', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="viandeButton" class="want-button" onclick="handleIngredientClick('Viande', true)">Viande hachée</button>
+                    <button id="noViandeButton" class="no-want-button" onclick="handleIngredientClick('Viande', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="lardonsButton" class="want-button" onclick="handleIngredientClick('Lardons', true)">Lardons</button>
+                    <button id="noLardonsButton" class="no-want-button" onclick="handleIngredientClick('Lardons', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="oeufButton" class="want-button" onclick="handleIngredientClick('Oeuf', true)">Oeuf</button>
+                    <button id="noOeufButton" class="no-want-button" onclick="handleIngredientClick('Oeuf', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="pommesButton" class="want-button" onclick="handleIngredientClick('Pommes', true)">Pommes de terre</button>
+                    <button id="noPommesButton" class="no-want-button" onclick="handleIngredientClick('Pommes', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="poivronsButton" class="want-button" onclick="handleIngredientClick('Poivrons', true)">Poivrons</button>
+                    <button id="noPoivronsButton" class="no-want-button" onclick="handleIngredientClick('Poivrons', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="oignonsButton" class="want-button" onclick="handleIngredientClick('Oignons', true)">Oignons</button>
+                    <button id="noOignonsButton" class="no-want-button" onclick="handleIngredientClick('Oignons', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="champignonsButton" class="want-button" onclick="handleIngredientClick('Champignons', true)">Champignons</button>
+                    <button id="noChampignonsButton" class="no-want-button" onclick="handleIngredientClick('Champignons', false)">Non merci</button>
+                </div>
+                <div>
+                    <button id="olivesButton" class="want-button" onclick="handleIngredientClick('Olives', true)">Olives</button>
+                    <button id="noOlivesButton" class="no-want-button" onclick="handleIngredientClick('Olives', false)">Non merci</button>
+                </div>
+            
+                
                 <!-- Add more ingredient buttons as needed -->
             </div>
         
+            
             <ul id="pizzaList">
-                <!-- Initial pizza list -->
-                <li>Tomato Cheese Pizza</li>
-                <li>Cheese Mushroom Pizza</li>
-                <li>Tomato Mushroom Pizza</li>
-                <!-- Add more pizzas as needed -->
+                <!-- Loop through the pizzas from the server -->
+                {% for pizza in pizzas %}
+                    <li>{{ pizza }}</li>
+                {% endfor %}
             </ul>
         </div>
 
@@ -63,19 +121,22 @@
         }
     
         function updatePizzaList() {
-            const selectedIngredients = Array.from(document.querySelectorAll('.want-button.active')).map(button => button.textContent.split(' ')[2]);
-            const rejectedIngredients = Array.from(document.querySelectorAll('.no-want-button.active')).map(button => button.textContent.split(' ')[3]);
-    
+            const activeWantButtons = document.querySelectorAll('.want-button.active');
+            const activeNoWantButtons = document.querySelectorAll('.no-want-button.active');
+
+            const selectedIngredients = Array.from(activeWantButtons).map(button => button.id.replace('Button', ''));
+            const rejectedIngredients = Array.from(activeNoWantButtons).map(button => button.id.replace('no', '').replace('Button', ''));
+
             const pizzaList = document.getElementById('pizzaList');
             const pizzas = Array.from(pizzaList.getElementsByTagName('li'));
-    
+
             pizzas.forEach((pizza) => {
                 const pizzaIngredients = pizza.textContent.split(' ');
-    
+
                 // Check if pizza contains all selected ingredients and none of the rejected ingredients
                 const containsAllIngredients = selectedIngredients.every(ingredient => pizzaIngredients.includes(ingredient));
                 const containsRejectedIngredients = rejectedIngredients.some(ingredient => pizzaIngredients.includes(ingredient));
-    
+
                 // Update the display property based on the conditions
                 pizza.style.display = (containsAllIngredients && !containsRejectedIngredients) ? 'block' : 'none';
             });
